@@ -6,7 +6,8 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/FruitNinjaUltimate3D.unity
-    guid: 4d08694f53957cd4eae18941baa36ab7
-  m_configObjects: {}
+    path: Assets/BzKovSoft/ObjectSlicer/Samples/Scenes/Fruit cutter.unity
+    guid: ce04045cb020c154eb175b63a6310943
+  m_configObjects:
+    com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   m_UseUCBPForAssetBundles: 0
