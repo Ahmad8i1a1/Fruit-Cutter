@@ -73,7 +73,7 @@ public class Lighsaber : MonoBehaviour
         Destroy(other.gameObject);
 
         Rigidbody rigidbody = slices[1].GetComponent<Rigidbody>();
-        Vector3 newNormal = transformedNormal + Vector3.up * _forceAppliedToCut;
+        Vector3 newNormal = transformedNormal + Vector3.down * _forceAppliedToCut;
         rigidbody.AddForce(newNormal, ForceMode.Impulse);
     }
 }
